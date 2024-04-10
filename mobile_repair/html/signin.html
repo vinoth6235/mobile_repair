@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script type="module" src="../javascript/signIn.js" defer></script>
+    
+</head>
+<body>
+    <div class="card">
+        <div class="form-body">
+            <form action="" id='login' novalidate>
+                <h1 class="form-heading">Sign In</h1>
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="email" id="Email" name="Email" placeholder="Enter email">
+                    <br>
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Enter password">
+                    <div class="error"></div>
+                </div>
+                <div class="otherOption">
+                    <a href="./forgotPasswod.html" class="tertiary">Forgot password ?</a>
+                    <a href="./signup.html" id="Signup" class="tertiary">Sign up</a>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+   
+</body>
+</html>

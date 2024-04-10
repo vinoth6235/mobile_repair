@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="card">
+        <div class="form-body">
+            <form action="" id='signup' novalidate>
+                <h1 class="form-heading">Sign In</h1>
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter fullname">
+                    <br>
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="Email" name="Email" placeholder="Enter email">
+                    <br>
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Enter Password">
+                    <div class="error"></div>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Enter Confirmpassword">
+                    <div class="error"></div>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+<script type="module" src="../javascript/signUp.js"></script>
+</body>
+</html>

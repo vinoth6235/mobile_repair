@@ -1,0 +1,77 @@
+.form-body{
+    padding: 20px;
+    width: 300px;
+    background-color:var(--primary);
+    border-radius: 15px;
+
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.card{
+     display: grid;
+     place-items:center;
+     background: white;
+     background-position: center;
+     height: 100%;
+}
+.form-body >form>.form-group>i{
+    position: relative;
+    top: 0px;
+    left: 40px;
+    color: white;
+}
+
+.form-heading{
+   text-align: center;
+   color: var(--secondary);
+   font-size:var(--fs1);
+   text-shadow: 3px 1px var(--tertiary);
+}
+.form-body >form>input[type="submit"]{
+    background-color: var(--secondary);
+    font-size: var(--fs4);
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    margin: 15px 50px 15px 50px;
+}
+.form-body >form >.form-group>input{
+    width: 200px;
+    margin: 15px 20px 0px 20px;
+    padding-left: 30px;
+    background-color: transparent !important;
+    border: none;
+    border-bottom:  solid;
+    font-size: var(--fs5);
+}
+.form-body >form>.form-group>input:focus{
+    outline: none;
+}
+.form-body >form>input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px var(--tertiary);
+}
+.otherOption{
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 40px;
+    column-gap: 15px;
+}
+.otherOption> a{
+    text-decoration: none;
+    color: var(--tertiary);
+}
+#Signup{
+    color: red;
+
+}
+.form-body >form>.otherOption>a:hover{
+    color: var(--secondary);
+}
+.form-group div{
+    padding: 5px 40px 5px 40px;
+    color: red;
+    font-size: var(--fs6);
+}
